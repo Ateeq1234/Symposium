@@ -3,7 +3,7 @@
 import random
 
 health= 50
-difficult= 1
+difficult= 3
 potion_health = random.randint(25,50)/ difficult
 
 health= health+ potion_health

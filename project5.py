@@ -20,13 +20,13 @@ while True:
             nums_seat= films[choice][1]
             if nums_seat>0:
                 print("Enjoy the film")
-                print("yipee you are selected")
+                print("Ok your Request is granted")
                 films[choice][1] =films[choice][1]- 1
 
             else:
                 print("Sorry we are sold out")
         else:
-            print("Grow up kid\n")
+            print("You are underage\n")
 
     else:
         print("We don't have that film")

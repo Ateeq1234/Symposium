@@ -1,4 +1,4 @@
-# ptoject- 7 Pig Latin
+# project- 7 Pig Latin
 
 original = input("Please enter a sentence here ").strip().lower()
 # print(original)

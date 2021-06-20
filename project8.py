@@ -38,12 +38,12 @@ while True:
     player_move("X")
     print_board()
     if (is_victory("X")):
-        print("Yo! X is the winner")
+        print("X is the winner")
         break
 
     player_move("O")
     if is_victory("O"):
         print_board()
-        print("Yo! Y is the winner")
+        print("Y is the winner")
         break
         
