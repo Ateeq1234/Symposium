@@ -1,5 +1,5 @@
 '''
-Project-6
+Project-5
 Cinema Simulator
 '''
 
@@ -10,7 +10,8 @@ films={
     'The dark Knight':[10,5]
 }
 
-
+print("Project-5")
+print("_"*15)
 
 while True:
     choice= input("Enter the film you want to watch?\n").strip().title()
@@ -19,8 +20,7 @@ while True:
         if age >= films[choice][0]:
             nums_seat= films[choice][1]
             if nums_seat>0:
-                print("Enjoy the film")
-                print("Ok your Request is granted")
+                print("Ok your Request is granted, Enjoy the filEnjoy the film")
                 films[choice][1] =films[choice][1]- 1
 
             else:

@@ -1,5 +1,6 @@
 board= [" "  for i in range(9)]
-
+print("Project-8")
+print("_"*15)
 def print_board():
     row1= f"|{board[0]}|"f" " f"|{board[1]}|"f" " f"|{board[2]}|"
     row2= f"|{board[3]}|"f" " f"|{board[4]}|"f" " f"|{board[5]}|"
@@ -38,12 +39,12 @@ while True:
     player_move("X")
     print_board()
     if (is_victory("X")):
-        print("X is the winner")
+        print("First Player is the winner")
         break
 
     player_move("O")
     if is_victory("O"):
         print_board()
-        print("Y is the winner")
+        print("Second Player is the winner")
         break
         

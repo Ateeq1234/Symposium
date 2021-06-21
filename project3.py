@@ -1,3 +1,6 @@
+print("Project-3")
+print("_"*15)
+
 email = input("Enter your email address\n").strip()
 
 user = email[:email.index("@")]
@@ -6,5 +9,6 @@ user = email[:email.index("@")]
 domain = email[email.index("@")+1:email.index(".")]
 
 # print(domain.capitalize()," is the domain name")
+
 
 print(f"{user} is the username and {domain}.com is the domain name ")

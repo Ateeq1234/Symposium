@@ -1,5 +1,6 @@
 # project- 7 Pig Latin
-
+print("Project-7")
+print("_"*15)
 original = input("Please enter a sentence here ").strip().lower()
 # print(original)
 

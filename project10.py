@@ -1,5 +1,6 @@
 import random
-
+print("Project-10")
+print("_"*15)
 class Coin:
     def __init__(self,rare= False, clean= True,heads= True,**kwargs):
 

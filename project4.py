@@ -1,7 +1,9 @@
 # Project - 04  
 # Shows the usage of conditional statements
 
-known_users= ['Tom','Jerry','doraemon','Shinchan','ben','kevin','carryminati']
+known_users= ['Tom','Jerry','doraemon','Shinchan','ben','kevin']
+print("Project-4")
+print("_"*15)
 print(known_users)
 
 # print(len(known_users))
